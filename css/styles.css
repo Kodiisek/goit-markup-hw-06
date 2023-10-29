@@ -827,7 +827,6 @@ flex-direction: column;
         align-items: center;
    }
 .modal-label{
-   display: flex;
    align-items: center;
    justify-content: center;
     font-family: Roboto;
@@ -839,6 +838,13 @@ flex-direction: column;
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8E8F99;
+}
+
+.privacy-label{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
 }
 
 .modal-div{
@@ -946,14 +952,13 @@ stroke-width: 1px;
 
 .policy-div{
     display: flex;
-
-    
     justify-content: flex-start;
     align-items: center;
     width: 100%;
     margin-bottom: 24px;
 }
 .policy-div > input[type="checkbox"]{
+    display: flex;
     appearance: none;   
 }
 
@@ -971,6 +976,7 @@ stroke-width: 1px;
 }
 
 .policy-svg{
+    
     width: 15px;
     height: 15px;
         
