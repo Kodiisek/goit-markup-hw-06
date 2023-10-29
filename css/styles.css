@@ -840,7 +840,7 @@ flex-direction: column;
 }
 
 .privacy-label{
-    display: flex;
+    display: block;
     align-items: center;
     gap: 2px;
 
